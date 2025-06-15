@@ -15,7 +15,11 @@ Puedes visitar la página en:
 ```
 tuskarchi/
 ├── index.html       # Página principal del portafolio
-└── README.md        # Descripción del proyecto
+├── README.md        # Descripción del proyecto
+└── img/             # Imágenes de los proyectos
+    ├── cnc.jpg
+    ├── recicladora.jpg
+    └── controlador_ai.jpg
 ```
 
 ## 🧠 Secciones incluidas
@@ -26,18 +30,17 @@ tuskarchi/
 ## 💡 Proyectos listados
 
 ### CNC Homemade
-![CNC Homemade](https://raw.githubusercontent.com/Tuskarch94/tuskarchi/main/img/cnc.jpg)
+![CNC Homemade](img/cnc.jpg)
 Proyecto de máquina CNC casera con control GRBL y Mach3.
 
 ### Recicladora PET
-![Recicladora PET](https://raw.githubusercontent.com/Tuskarch94/tuskarchi/main/img/recicladora.jpg)
+![Recicladora PET](img/recicladora.jpg)
 Sistema para reciclar PET y fabricar filamento 3D.
 
 ### Controlador AI
-![Controlador AI](https://raw.githubusercontent.com/Tuskarch94/tuskarchi/main/img/controlador_ai.jpg)
+![Controlador AI](img/controlador_ai.jpg)
 IA para controlar hardware de impresión 3D y CNC.
 
-📸 *Nota: Asegúrate de subir estas imágenes a una carpeta `img/` dentro del repositorio para que se muestren correctamente.*
-
 ---
+
 Desarrollado por **Tuskarch94** © 2025
