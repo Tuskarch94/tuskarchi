@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Proyectos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .proyecto {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem auto;
+      max-width: 600px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Mis Proyectos</h1>
+  <div id="lista-proyectos"></div>
+
+  <script>
+    const proyectos = [
+      { nombre: "CNC Homemade", descripcion: "Proyecto de máquina CNC casera con control GRBL y Mach3." },
+      { nombre: "Recicladora PET", descripcion: "Sistema para reciclar PET y fabricar filamento 3D." },
+      { nombre: "Controlador AI", descripcion: "IA para controlar hardware de impresión 3D y CNC." }
+    ];
+
+    const contenedor = document.getElementById('lista-proyectos');
+    proyectos.forEach(p => {
+      const div = document.createElement('div');
+      div.className = 'proyecto';
+      div.innerHTML = `<h2>${p.nombre}</h2><p>${p.descripcion}</p>`;
+      contenedor.appendChild(div);
+    });
+  </script>
+</body>
+</html>
